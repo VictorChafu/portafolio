@@ -1,0 +1,74 @@
+*{     /* esto sirve para tipo resetear las config*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;    
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*para que se separen entre los div*/
+    height: 63px;  /*ancho de cuadrado*/
+    position: fixed; /*para dejarlo pegado al momento de bajar*/
+    width: 100%;
+    z-index: 100; /*para que predomine mas que los demas*/
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px; /*espacio de la derecha*/
+}
+.navbar a{
+    color: white;
+    display: block;
+    padding: 20px 20px;  /*esto es para darle espacio a la izq y derech*/
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbar a:hover{ /*el hover es cuando el usuario interactua sobre las cosas*/
+    background-color: rgb(88, 88, 88);
+}
+
+.logo{  /*para editar el recuadro*/
+    margin-left: 10px;
+
+}
+
+.logo a{   /*solo para editar la letra*/
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; /*para colocarlo en mayuscula*/
+    font-size: 20px;  /*tamaño de la letra*/
+}
+
+.header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 60vh !important; /*el alto*/
+    /*el background es para trabajar el fondo*/
+    background: url(/img/minimalism-background-macro-chip-wallpaper-preview.jpg)no-repeat center ;
+    background-size: cover;  /* cover para que cubra todo*/
+}
+.title{
+    background-color: aqua;
+    margin-bottom: 40px; /*bottom margen de abajo*/
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p{
+    mar
+}
+
