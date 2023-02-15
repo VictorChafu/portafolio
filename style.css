@@ -58,17 +58,43 @@ body{
 .header{
     height: 60vh !important; /*el alto*/
     /*el background es para trabajar el fondo*/
-    background: url(/img/minimalism-background-macro-chip-wallpaper-preview.jpg)no-repeat center ;
+    background: url(/img/pexels-photo-167699.webp)no-repeat center ;
     background-size: cover;  /* cover para que cubra todo*/
 }
 .title{
-    background-color: aqua;
     margin-bottom: 40px; /*bottom margen de abajo*/
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
 }
 p{
-    mar
+    margin: 40px;
+    font-size:18px;
+    color: black;
 }
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 50px;
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(209, 3, 209);
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home {
+    display: flex;  
+}
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+
+
 
