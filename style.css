@@ -12,7 +12,7 @@ body{
 }
 
 .head{
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-between; /*para que se separen entre los div*/
@@ -27,7 +27,7 @@ body{
     margin-right: 10px; /*espacio de la derecha*/
 }
 .navbar a{
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     padding: 20px 20px;  /*esto es para darle espacio a la izq y derech*/
     text-decoration: none;
@@ -58,10 +58,11 @@ body{
 .header{
     height: 60vh !important; /*el alto*/
     /*el background es para trabajar el fondo*/
-    background: url(/img/pexels-photo-167699.webp)no-repeat center ;
+    background: url(/img/pexels-adrien-olichon-2387793.jpg)no-repeat center ;
     background-size: cover;  /* cover para que cubra todo*/
 }
 .title{
+    color: white;
     margin-bottom: 40px; /*bottom margen de abajo*/
     font-size: 60px;
     font-weight: 600;
@@ -70,7 +71,7 @@ body{
 p{
     margin: 40px;
     font-size:18px;
-    color: black;
+    color: rgb(255, 252, 252);
 }
 
 .btn {
@@ -80,7 +81,7 @@ p{
     border: 2px solid black;
     color: white;
     text-decoration: none;
-    background-color: rgb(209, 3, 209);
+    background-color: rgb(65, 65, 65);
 }
 
 .btn:hover{
@@ -93,6 +94,37 @@ p{
 .btn-home a {
     margin: 0 10px;
 }
+
+.content{  /*esto es una configuracion de los content en general*/
+    height: 50vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 30px;
+    background-color: rgb(37, 37, 37);
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*para que, cuadno esté en modo celular se coloque en columna*/
+    text-align: center;   
+}
+.box-container .box{  /*todo lo que tenga box.container y box será afectado*/
+    height: 11rem;
+    width: 17rem;
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+
+
 
 
 
