@@ -29,15 +29,17 @@ body{
 .navbar a{
     color: rgb(255, 255, 255);
     display: block;
-    padding: 20px 20px;  /*esto es para darle espacio a la izq y derech*/
+    padding: 10px 10px;  /*esto es para darle espacio a la izq y derech*/
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
 }
 .navbar a:hover{ /*el hover es cuando el usuario interactua sobre las cosas*/
     background-color: rgb(88, 88, 88);
 }
 
-.logo{  /*para editar el recuadro*/
+.logo img{  /*para editar el recuadro*/
+    height: 4rem;
+    width: 5rem;
     margin-left: 10px;
 
 }
@@ -60,17 +62,19 @@ body{
     /*el background es para trabajar el fondo*/
     background: url(/img/pexels-adrien-olichon-2387793.jpg)no-repeat center ;
     background-size: cover;  /* cover para que cubra todo*/
+    background-attachment: fixed;  /*para dar efeco a imgen que se queda estati */
 }
 .title{
     color: white;
-    margin-bottom: 40px; /*bottom margen de abajo*/
-    font-size: 60px;
+    margin: 2rem;
+    margin-bottom: 30px; /*bottom margen de abajo*/
+    font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
 }
 p{
     margin: 40px;
-    font-size:18px;
+    font-size:15px;
     color: rgb(255, 252, 252);
 }
 
@@ -108,6 +112,10 @@ p{
     background-color: rgb(37, 37, 37);
 }
 
+.sau p{
+    border: 1rem;
+}
+
 .box-container{
     display: flex;
     justify-content: center;
@@ -120,8 +128,34 @@ p{
     background-color: rgb(41, 41, 41);
     text-align: center;
     border-radius: 1rem;
-
+    box-shadow: 0 .3 5rem rgb(0, 0, 5);
+    margin: 2rem;
 }
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color:black;
+    font-size: 1rem;
+    margin: 1rem 0; /*arriba y abajo de 1 rem, izq y derech de 0 */
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: white;
+
+    border: 2px solid black;
+    
+}
+.box-container .box p{
+    padding: 0 15px;
+    margin: 1rem 1rem;
+    font-size: 16px; 
+}
+
 
 
 
