@@ -58,24 +58,27 @@ body{
     align-items: center;
 }
 .header{
-    height: 60vh !important; /*el alto*/
+    height: 100vh !important; /*el alto*/
     /*el background es para trabajar el fondo*/
-    background: url(/img/pexels-adrien-olichon-2387793.jpg)no-repeat center ;
+    background: url(/img/pexels-andrew-neel-2312369.jpg)no-repeat center ;
     background-size: cover;  /* cover para que cubra todo*/
     background-attachment: fixed;  /*para dar efeco a imgen que se queda estati */
 }
 .title{
     color: white;
     margin: 2rem;
-    margin-bottom: 30px; /*bottom margen de abajo*/
+    margin-bottom: 80px; /*bottom margen de abajo*/
     font-size: 50px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: uppercase; /*mayuscula*/
+    letter-spacing: 1.2px;  /*espacio entre las letras*/
+    text-shadow: 0 0 10px black;
 }
 p{
     margin: 40px;
-    font-size:15px;
+    font-size:16px;
     color: rgb(255, 252, 252);
+    text-shadow: 0 0 15px black;
 }
 
 .btn {
@@ -108,13 +111,31 @@ p{
 }
 
 .sau{
+    height: 100vh;
     padding: 30px;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(87, 87, 87);
 }
 
 .sau p{
-    border: 1rem;
+    
 }
+
+.LOGOS i{
+    font-size: 2rem;
+    color: rgb(255, 255, 255); 
+    animation-name: avion;
+    animation-duration: 4s;
+    animation-timing-function: linear; /*velocidad del movimiento*/
+    animation-iteration-count:infinite ; /*duracion*/
+    position: relative;
+}
+@keyframes avion {
+    0%  {left: 0; top: 0px;}
+    50% {left: 50px; top: 0px;}
+    100%{left: 100px; top: 0px;}
+    
+}
+
 
 .box-container{
     display: flex;
